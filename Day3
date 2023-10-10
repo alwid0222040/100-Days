@@ -1,0 +1,15 @@
+package Day2;
+
+public class day2 {
+    public static void main(String[] args) {
+        String nama = "Alwi";
+        String Nim = "D0222040";
+        int Umur = 19;
+        String  Hoby = "Volley ball";
+        
+        System.out.println("Nama :" + nama);
+        System.out.println("Nim :" +Nim);
+        System.out.println("Umur :" +Umur);
+        System.out.println("Hoby saya :"+Hoby);
+    }
+}
