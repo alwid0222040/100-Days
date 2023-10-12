@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Day4 {
+    public static void main(String[] args) {
+        System.out.println("Ini adalah hasil Final");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nilai saya :");
+        
+        int nilaiku=sc.nextInt(); 
+        
+        if(nilaiku >= 90){
+            System.out.println("A");
+        }
+        else if(nilaiku >= 80){
+            System.out.println("B");
+        }
+        else if(nilaiku >= 60){
+            System.out.println("C");
+        }
+        else if(nilaiku >= 50 ){
+            System.out.println("D");
+        }
+        else{
+            System.out.println("Selamat  mengulang tahun depan");
+        }
+    }
