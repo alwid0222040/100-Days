@@ -1,0 +1,10 @@
+package isc;
+
+public class Day5 {
+    public static void main(String[] args) {
+        String NamaDepan = "Alwi ";
+        String NamaBelakang = "Muhammad";
+        String Gabung =NamaDepan.concat(NamaBelakang);
+        System.out.println("Nama :"+ Gabung);
+    }
+}
