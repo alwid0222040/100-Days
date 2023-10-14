@@ -1,0 +1,9 @@
+package isc;
+
+public class Day6 {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 6; i++) {
+            System.out.println("Ngoding hari ke-" +i);
+        }
+    }
+}
