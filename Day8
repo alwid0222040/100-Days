@@ -1,0 +1,25 @@
+package isc;
+
+import java.util.Scanner;
+
+public class Day8 {
+    public static void main(String[] args) {
+        System.out.println("Operasi aritmatika");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan angka pertama :");
+        int a = sc.nextInt();
+        System.out.print("masukkan angka kedua :");
+        int b = sc.nextInt();
+        
+        int hasil = a*b;
+        System.out.println("Hasil perkalian :"+hasil);
+        hasil = a/b;
+        System.out.println("Hasil pembagian :"+hasil);
+        hasil = a-b;
+        System.out.println("Hasil penngurangan :"+hasil);
+        hasil = a+b;
+        System.out.println("Hasil penjumlahan :"+hasil);
+        hasil = a % b;
+        System.out.println("Hasil sisa bagi :"+hasil);
+    }
+}
