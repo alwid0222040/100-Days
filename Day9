@@ -1,0 +1,13 @@
+package isc;
+
+public class Day9 {
+    public static void main(String[] args) {
+        int a = 20;
+        int b = 10;
+        
+        boolean operasi = a > b;
+        System.out.println(operasi);
+        operasi = a < b;
+        System.out.println(operasi);
+    }
+}
