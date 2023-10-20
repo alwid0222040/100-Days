@@ -1,0 +1,21 @@
+package isc;
+
+import java.util.Scanner;
+
+public class Day12 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan warna :");
+        String warna = sc.nextLine();
+        
+        if(warna.equals("merah")){
+            System.out.println("BERHENTI");
+        }
+        if(warna.equals("kuning")){
+            System.out.println("HATI-HATI");
+        }
+        if(warna.equals("HIJAU")){
+            System.out.println("JALAN");
+        }
+    }
+}
