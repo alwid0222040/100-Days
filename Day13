@@ -1,0 +1,19 @@
+package isc;
+
+import java.util.ArrayList;
+
+public class Day13 {
+    public static void main(String[] args) {
+        ArrayList <String> Nama = new ArrayList <>();
+        Nama.add("Hinata");
+        Nama.add("Kageyama");
+        Nama.add("Nishinoya");
+        
+        String Quicker = Nama.get(0);
+        System.out.println("Nama quicker :"+Quicker);
+        String Setter = Nama.get(1);
+        System.out.println("Nama Setter :"+Setter);
+        String Libero = Nama.get(2);
+        System.out.println("Nama Libero :"+Libero);
+    }
+}
