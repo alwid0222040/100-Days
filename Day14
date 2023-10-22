@@ -1,0 +1,24 @@
+package isc;
+
+import java.util.ArrayList;
+
+public class Day14 {
+        public static void main(String[] args) {
+        ArrayList<Integer> Angka = new ArrayList<>();
+        Angka.add(1);
+        Angka.add(2);
+        Angka.add(3);
+        Angka.add(4);
+        Angka.add(5);
+
+        int DropAngka = 2; 
+        DropAngka = 4;
+
+        if (Angka.contains(DropAngka)) {
+            Angka.remove(Integer.valueOf(DropAngka));
+        }
+
+        System.out.println(Angka);
+    }
+    
+}
