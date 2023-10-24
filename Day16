@@ -1,0 +1,27 @@
+
+package isc;
+
+import java.util.Stack;
+
+public class Day16 {
+    public static void main(String[] args) {
+        Stack<String> buah = new Stack<>();
+        System.out.println("Apakah buah terisi?" + buah.isEmpty());
+        
+        buah.push("Mangga");
+        buah.push("Melon");
+        buah.push("Jeruk");
+        buah.push("Durian");
+        System.out.println("Data Stack :" + buah);
+        
+        System.out.println("Apakah buah terisi?" +  buah.empty());
+        
+        String value = buah.peek();
+        System.out.println("Data peek :" + value);
+        System.out.println("Data Stack :" + buah);
+        
+        value = buah.pop();
+        System.out.println("Data pop :" +value);
+        System.out.println("Data Stack : " + buah);
+    }
+}
