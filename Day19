@@ -1,0 +1,17 @@
+
+package isc;
+
+import java.util.Scanner;
+
+public class Day19 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukkan nilai x :");
+        int x = sc.nextInt();
+        System.out.println("Masukkan nilai y :");
+        int y = sc.nextInt();
+        
+        double HasilPangkat = Math.pow(x, y);
+        System.out.println("Hasil dari x^y :"+ HasilPangkat);
+    }
+}
