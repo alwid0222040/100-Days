@@ -1,0 +1,9 @@
+package isc;
+
+public class Day21 {
+    public static void main(String[] args) {
+        int angka = 123456789;
+        String angkaString = Integer.toString(angka);
+        System.out.println(angkaString);
+    }
+}
