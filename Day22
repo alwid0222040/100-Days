@@ -1,0 +1,21 @@
+
+package isc;
+
+import java.util.Stack;
+
+public class Day22 {
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+
+        System.out.println("Isi Stack setelah push: " + stack);
+        int popElemenAtas = stack.pop();
+        System.out.println("Elemen yang di-pop: " + popElemenAtas);
+        System.out.println("Isi Stack setelah pop: " + stack);
+    }
+}
+
