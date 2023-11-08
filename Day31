@@ -1,0 +1,11 @@
+package isc;
+
+public class Day31 {
+    public static void main(String[] args) {
+        int alas =6 ;
+        int tinggi = 4;
+        
+        int luas = alas*tinggi*1/2;
+        System.out.println(luas);
+    }
+}
