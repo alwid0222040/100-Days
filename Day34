@@ -1,0 +1,22 @@
+
+package isc;
+
+import java.util.Scanner;
+
+public class Day34 {
+    public static void main(String[] args) {
+        System.out.print("Jumlah matkul :");
+        Scanner sc = new Scanner(System.in);
+        
+        int Jmlh_makul = sc.nextInt();
+        
+        if (Jmlh_makul == 2) {
+            System.out.println("Senin");
+        }
+        if (Jmlh_makul == 1) {
+            System.out.println("Jumat");          
+        }else{
+            System.out.println("Hari lain Selain dua diatas");
+        }
+    }
+}
