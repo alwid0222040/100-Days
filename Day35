@@ -1,0 +1,12 @@
+
+package isc;
+
+public class Day35 {
+    public static void main(String[] args) {
+        String a = "Nama ";
+        String b = "Saya";
+        String c = a + b;
+        System.out.println(c);
+    }
+  
+}
