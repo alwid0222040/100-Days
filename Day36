@@ -1,0 +1,16 @@
+
+package isc;
+
+
+public class Day36 {
+    public static void main(String[] args) {
+        int duit = 1000;
+        int mie = 3000;
+        if (duit == mie){
+            System.out.println("Beli");
+        }
+        if (duit < mie) {
+            System.out.println("Ngutang dulu");
+        }
+    }
+}
