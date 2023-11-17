@@ -1,0 +1,17 @@
+
+package isc;
+import java.util.HashSet;
+public class Day40 {
+    public static void main(String[] args) {
+       
+        HashSet<String> hashSet = new HashSet<>();
+
+        hashSet.add("Mangga");
+        hashSet.add("Apel");
+        hashSet.add("Jeruk");
+
+        System.out.println("HashSet: " + hashSet);
+
+    }
+}
+
