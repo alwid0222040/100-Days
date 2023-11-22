@@ -1,0 +1,32 @@
+package Isc;
+
+
+import java.util.Stack;
+
+
+public class Day45 {
+
+
+
+    public static void main(String[] args) {
+
+    Stack<Integer> Stack = new Stack<>();
+
+    
+
+    Stack.push(2004);
+
+    Stack.push(2023);
+
+    
+
+    while(!Stack.isEmpty()){
+
+        System.out.println(Stack.pop());
+
+    }
+
+    }
+
+    
+}
